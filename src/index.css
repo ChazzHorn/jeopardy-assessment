@@ -29,6 +29,13 @@ input {
   padding: 4px;
 }
 
+.PurpleImg{
+  height: 300px;
+}
+.MessageCenter{
+  text-align: center;
+}
+
 button {
   background: #7067cfaa;
   padding: 4px;
