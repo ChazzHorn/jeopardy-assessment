@@ -8,6 +8,7 @@ class Contact extends Component{
 
         this.state = {
             submitted: false,
+
             formData: {
                 firstName: '',
                 lastName: ''
@@ -15,6 +16,7 @@ class Contact extends Component{
 
         }
     }
+    
     handleChange =(event) => {
         const formData = {...this.state.formData};
         formData[event.target.name] = event.target.value

@@ -6,11 +6,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter basename="/react-welcome-clock-demo1" > 
     <App /> 
     </BrowserRouter>
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
